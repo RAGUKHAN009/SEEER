@@ -1,0 +1,1665 @@
+/* 
+
+    GENERAL SETTINGS
+
+*/
+
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* 
+
+NAVBAR 
+
+*/
+
+.Nav1 {
+    width: 100%;
+    height: 8.5vh;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #e4e6ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: sticky;
+    top: 0vh; */
+    background-color: #ffffff;
+}
+
+/* 
+
+    NAV ALIGNMENT
+    
+*/
+
+.NavAlign {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 
+
+    MAIN LOGO
+
+*/
+
+
+.Nav1One {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Nav1One img {
+    width: 70%;
+    height: auto;
+}
+
+.Nav1Two {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+/* 
+
+    ONLINE ADVISORS BUTTON
+
+
+*/
+
+.OnlineAdvisorsFilter {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.OnlineAdvisorsFilterButton {
+    border: none;
+    background-color: transparent;
+    color: #737373;
+    font-size: 1vw;
+    transition: .5s ease all;
+    font-weight: bolder;
+}
+
+.OnlineAdvisorsFilterButton:hover {
+    color: #282828;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.SelectAdvisorsFilter {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.advisor-select {
+    width: 80%;
+    height: 8vh;
+    font-size: 1vw;
+    color: #737373;
+    border: none;
+    outline: none;
+    font-weight: bolder;
+}
+
+.advisor-select option {
+    width: 40vw;
+    height: 5vh;
+}
+
+.advisor-select:hover {
+    color: #282828;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.SearchAdvisorsFilter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    justify-content: end;
+    color: #737373;
+    transition: 0.5s ease all;
+}
+
+.SearchAdvisorsFilter:hover {
+    color: #282828;
+}
+
+.SearchAdvisorsFilter i {
+    font-size: 1vw;
+}
+
+.FilterSearch {
+    color: #282828;
+    display: none;
+    font-size: 0.9vw;
+    overflow: hidden;
+    padding: 5px;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid #737373;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    animation: SFR 0.5s;
+    transition: 0.5s ease all;
+    width: 12vw;
+}
+
+@keyframes SFR {
+    0% {
+        width: 0vw;
+    }
+
+    100% {
+        width: 12vw;
+    }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.NavButtonsCont {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vw;
+}
+
+.SignInButton {
+    width: 30%;
+    height: 55%;
+    border: 1px solid #00a5a8;
+    font-size: 0.8vw;
+    border-radius: 5px;
+    color: #00a5a8;
+    background-color: transparent;
+    transition: .5s ease all;
+    font-weight: 100;
+}
+
+.SignInButton:hover {
+    background-color: #00d18e;
+    color: #ffffff;
+    border: 1px solid #00d18e;
+}
+
+.SignOutButton {
+    width: 30%;
+    height: 55%;
+    background-color: #00a8a7;
+    border: 1px solid #00a8a7;
+    border-radius: 5px;
+    font-size: 0.8vw;
+    color: #ffffff;
+    transition: .5s ease all;
+    font-weight: 100;
+}
+
+.SignOutButton:hover {
+    background-color: #7fd3d3;
+    border-color: #7fd3d3;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.Nav2Items {
+    width: 100%;
+    height: 10vh;
+    box-shadow: 2px 4px 20px -4px #0000001a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Nav2ItemsAlign {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Nav2ItemsAlignList {
+    display: flex;
+    list-style: none;
+    font-size: 1vw;
+    gap: 1.5vw;
+
+}
+
+.Nav2ItemsAlignListLi a {
+    text-decoration: none;
+    color: #737373;
+    transition: 0.5s ease all;
+}
+
+.Nav2ItemsAlignListLi a:hover {
+    color: #282828;
+}
+
+.Nav2ItemsAlignListLi a i {
+    font-size: 1.2vw;
+    font-weight: bolder;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.HeroCont {
+    width: 100%;
+    height: 55vh;
+    background: fixed;
+    background-size: cover;
+    background-image: url(./heroImg.jpg);
+}
+
+.HeroContAlign {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HeroContend {
+    width: 75%;
+    height: 40%;
+}
+
+.HeroHeading {
+    width: 100%;
+    height: 40%;
+    text-shadow: 0.5px 0.5px 2px black;
+    color: #ffffff;
+    font-size: 1.4vw;
+
+}
+
+.HeroParagraph {
+    width: 100%;
+    height: 20%;
+    text-shadow: 0.5px 0.5px 2px black;
+    color: #ffffff;
+    font-size: 1vw;
+    font-weight: 900;
+}
+
+.HeroButton {
+    width: 100%;
+    height: 40%;
+}
+
+.HeroButtonBut {
+    width: 15%;
+    height: 75%;
+    border-radius: 5px;
+    border: none;
+    background-color: #00d18e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HeroButtonBut a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1vw;
+    font-weight: 600;
+    text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.bodyCont {
+    width: 100%;
+    height: 290vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.bodyContDis0 {
+    width: 75%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    margin-top: 5vh;
+}
+
+.BodyHeading {
+    color: #00a5a8;
+    font-weight: bolder;
+}
+
+.BodyButton {
+    background-color: #00a5a8;
+    border: none;
+    border-radius: 5px;
+    height: 50%;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BodyButton a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9vw;
+    border-radius: 5px;
+    transition: 0.5s ease all;
+}
+
+.BodyButton a:hover {
+    background-color: #7fd3d3;
+}
+
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.bodyContDis1 {
+    width: 75%;
+    height: 80vh;
+    position: relative;
+}
+
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    user-select: none;
+}
+
+.carousel-containerr {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousell {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    user-select: none;
+}
+
+.carousel-containerrr {
+    position: relative;
+    overflow: hidden;
+}
+
+.carouselll {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    user-select: none;
+}
+
+.S1 {
+    flex: 0 0 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+.S2 {
+    flex: 0 0 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+.S3 {
+    flex: 0 0 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+.S4 {
+    flex: 0 0 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1vw;
+}
+
+.BodyContDisCaroselLeft {
+    position: absolute;
+    top: 60%;
+    right: 97%;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+
+}
+
+.BodyContDisCaroselLeft button {
+    width: 100%;
+    background-color: transparent;
+    height: 100%;
+    border: none;
+    border-radius: 50%;
+    font-size: 3vw;
+    font-weight: 100;
+    color: #7fd3d3;
+    border: 3px solid #7fd3d3;
+    transition: 0.5s ease all;
+}
+
+.BodyContDisCaroselRight {
+    position: absolute;
+    top: 60%;
+    left: 97%;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+
+}
+
+.BodyContDisCaroselRight button {
+    width: 100%;
+    background-color: transparent;
+    height: 100%;
+    border: none;
+    border-radius: 50%;
+    font-size: 3vw;
+    font-weight: 100;
+    color: #7fd3d3;
+    border: 3px solid #7fd3d3;
+    transition: 0.5s ease all;
+}
+
+.BodyContDisCaroselRight button:hover {
+    color: #00a5a8;
+    border-color: #00a5a8;
+}
+
+.BodyContDisCaroselLeft button:hover {
+    color: #00a5a8;
+    border-color: #00a5a8;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.bodyContDis2 {
+    width: 75%;
+    height: 90vh;
+    position: relative;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.bodyContDis3 {
+    width: 75%;
+    height: 90vh;
+    position: relative;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.AdvisorsProfileImg {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.ProfileImg {
+    width: 7vw;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.profileImgAncor {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.ProfileImg img {
+    width: auto;
+    height: 100%;
+
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.AdvisorsProfileActivation {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.AdvisorsProfileActivation p {
+    font-size: 1vw;
+    color: #00d18e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vw;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.AdvisorsProfileActivation p span {
+    width: .7vw;
+    height: .7vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00d18e;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.AdvisorsName {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2vw;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.AdvisorsName a {
+    color: #00a8a7;
+    font-weight: 600;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.AdvisorsTable {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.AdvisorsGrid {
+    width: 60%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.AdvisorsGrid div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.TableRow1Col1 {
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.TableRow2Col1 {
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.TableRow1Col2 {
+    font-size: 0.9vw;
+    color: #282828;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.fiveStar {
+    color: #fd711b;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.TableRow2Col2 {
+    font-size: 0.9vw;
+    color: #737373;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.AdvisorsIntroPara {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 15%;
+    font-size: 0.9vw;
+    text-align: justify;
+    color: #282828;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.AdvisorsIntroPara p span {
+    text-transform: uppercase;
+
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.AdvisorsDeal {
+    font-size: 0.9vw;
+    color: #00a8a7;
+    font-weight: 500;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.DealBold {
+    font-weight: 900;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.AdvisorsContact {
+    width: 70%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vw;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.AdvisorsContactCart1 {
+    width: 30%;
+    height: 60%;
+
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.AdvisorsContactCart1button {
+    width: 100%;
+    height: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.AdvisorsContactCart3 {
+    width: 30%;
+    height: 60%;
+
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.AdvisorsContactCart3button {
+    width: 100%;
+    height: 100%;
+    background-color: #00a8a7;
+    border-radius: 5px;
+    border: none;
+    transition: 0.5s ease all;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.AdvisorsContactCart3button a {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.AdvisorsContactCart3button:hover {
+    background-color: #7fd3d3;
+    border-radius: 5px;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.AdvisorsContactIcon1 {
+    font-size: 1.5vw;
+    color: #a0a0a0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.AdvisorsContactIcon3 {
+    font-size: 1.5vw;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.ContactText1 {
+    text-decoration: none;
+    color: #737373;
+    font-size: 0.8vw;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.ContactText3 {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 0.8vw;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.ContactRates {
+    font-size: 0.8vw;
+    color: white;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.OnlineStatus1 {
+    width: 80%;
+    height: 20%;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: #282828;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7vw;
+
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.AdvisorsEndButton {
+    width: 70%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.EndingAncors {
+    font-size: 0.8vw;
+    color: #00a8a7;
+    transition: 0.5s ease all;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.EndingAncors:hover {
+    font-size: 0.8vw;
+    color: rgb(24, 24, 216);
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.AdvisorsCartsMajor {
+    width: 32%;
+    height: 99%;
+    box-shadow: 0 10px 40px #3e396b12, 0 2px 9px #3e396b0f;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.AdvisorsCartsMajorRank {
+    width: 3vw;
+    height: 3vw;
+    background-color: #00a8a7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.5vw;
+    right: 0.5vw;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.AdvisorsCartsMajorRank h1 {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-size: 2vw;
+    font-weight: 500;
+    color: #ffffff;
+    align-items: flex-start;
+    padding-top: 0.5vh;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+.S11 {
+    flex: 0 0 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.S22 {
+    flex: 0 0 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.S33 {
+    flex: 0 0 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.S44 {
+    flex: 0 0 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1vw;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.S111 {
+    flex: 0 0 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.S222 {
+    flex: 0 0 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.S333 {
+    flex: 0 0 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.S444 {
+    flex: 0 0 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1vw;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.bodyEndCont {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  */
+/*  */
+/*  */
+.bodyEndContAlign {
+    width: 75%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+/*  */
+/*  */
+/*  */
+.BodyEndButton {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+/*  */
+/*  */
+/*  */
+.BodyEndButton button {
+    width: 15%;
+    height: 100%;
+    background-color: #00a8a7;
+    border: none;
+    border-radius: 5px;
+}
+
+/*  */
+/*  */
+/*  */
+.BodyEndButton button:hover {
+    background-color: #7fd3d3;
+}
+
+/*  */
+/*  */
+/*  */
+.BodyEndButton button a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1vw;
+}
+
+/*  */
+/*  */
+/*  */
+.BodyEndCart {
+    width: 100%;
+    height: 75%;
+    box-shadow: 0 10px 40px #3e396b12, 0 2px 9px #3e396b0f;
+}
+
+/*  */
+/*  */
+/*  */
+.BodyEndCartHeading {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+/*  */
+/*  */
+/*  */
+.BodyEndCartHeading h1 {
+    width: 98%;
+    color: #00a8a7;
+    font-weight: 900;
+}
+
+/*  */
+/*  */
+/*  */
+.BodyEndCartCont {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+/*  */
+/*  */
+/*  */
+.BodyEndCartsCont {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  */
+/*  */
+/*  */
+.BodyEndCartsCont img {
+    height: 35%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  */
+/*  */
+/*  */
+.BodyEndCartsCont h2 {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    color: #00a8a7;
+}
+
+/*  */
+/*  */
+/*  */
+.BodyEndCartsCont p {
+    height: 20%;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9vw;
+    color: #282828;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+footer {
+    width: 100%;
+    height: 45vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.footerListsCont {
+    width: 75%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.FooterLists {
+    width: 15%;
+    height: 100%;
+    list-style: none;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.FooterListItemsHeading {
+    color: #737373;
+    font-size: 1.4vw;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.FooterListItems {
+    height: 15%;
+    display: flex;
+    align-items: end;
+    font-size: 0.8vw;
+    font-weight: lighter;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.FooterListItems1 {
+    height: 15%;
+    display: flex;
+    align-items: end;
+    font-size: 0.8vw;
+    font-weight: lighter;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.FooterListItems1 a {
+    color: #ffffff;
+    transition: 0.3s ease all;
+    text-decoration: none;
+    color: #dabfbf;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.FooterListItems1 a:hover {
+    color: #737373;
+    text-decoration: underline;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.FooterListItems a {
+    color: #ffffff;
+    transition: 0.5s ease all;
+    text-decoration: none;
+    color: #dabfbf;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.FooterListItems a:hover {
+    color: #737373;
+    text-decoration: underline;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.FooterTextsCont {
+    width: 75%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+.FooterTexts {
+    width: 100%;
+    height: 30%;
+    color: #737373;
+    font-size: 0.8vw;
+}
+
+.FooterTexts span {
+    color: black;
+}

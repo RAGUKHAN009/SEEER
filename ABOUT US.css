@@ -1,0 +1,627 @@
+/* 
+
+    GENERAL SETTINGS
+
+*/
+
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* 
+
+NAVBAR 
+
+*/
+
+.Nav1 {
+    width: 100%;
+    height: 8.5vh;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #e4e6ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: sticky;
+        top: 0vh; */
+    background-color: #ffffff;
+}
+
+/* 
+
+        NAV ALIGNMENT
+        
+    */
+
+.NavAlign {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 
+
+        MAIN LOGO
+
+    */
+
+
+.Nav1One {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Nav1One img {
+    width: 70%;
+    height: auto;
+}
+
+.Nav1Two {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+/* 
+
+    ONLINE ADVISORS BUTTON
+
+
+*/
+
+.OnlineAdvisorsFilter {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.OnlineAdvisorsFilterButton {
+    border: none;
+    background-color: transparent;
+    color: #737373;
+    font-size: 1vw;
+    transition: .5s ease all;
+    font-weight: bolder;
+}
+
+.OnlineAdvisorsFilterButton:hover {
+    color: #282828;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.SelectAdvisorsFilter {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.advisor-select {
+    width: 80%;
+    height: 8vh;
+    font-size: 1vw;
+    color: #737373;
+    border: none;
+    outline: none;
+    font-weight: bolder;
+}
+
+.advisor-select option {
+    width: 40vw;
+    height: 5vh;
+}
+
+.advisor-select:hover {
+    color: #282828;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.SearchAdvisorsFilter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    justify-content: end;
+    color: #737373;
+    transition: 0.5s ease all;
+}
+
+.SearchAdvisorsFilter:hover {
+    color: #282828;
+}
+
+.SearchAdvisorsFilter i {
+    font-size: 1vw;
+}
+
+.FilterSearch {
+    color: #282828;
+    display: none;
+    font-size: 0.9vw;
+    overflow: hidden;
+    padding: 5px;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid #737373;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    animation: SFR 0.5s;
+    transition: 0.5s ease all;
+    width: 12vw;
+}
+
+@keyframes SFR {
+    0% {
+        width: 0vw;
+    }
+
+    100% {
+        width: 12vw;
+    }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.NavButtonsCont {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vw;
+}
+
+.SignInButton {
+    width: 30%;
+    height: 55%;
+    border: 1px solid #00a5a8;
+    font-size: 0.8vw;
+    border-radius: 5px;
+    color: #00a5a8;
+    background-color: transparent;
+    transition: .5s ease all;
+    font-weight: 100;
+}
+
+.SignInButton:hover {
+    background-color: #00d18e;
+    color: #ffffff;
+    border: 1px solid #00d18e;
+}
+
+.SignOutButton {
+    width: 30%;
+    height: 55%;
+    background-color: #00a8a7;
+    border: 1px solid #00a8a7;
+    border-radius: 5px;
+    font-size: 0.8vw;
+    color: #ffffff;
+    transition: .5s ease all;
+    font-weight: 100;
+}
+
+.SignOutButton:hover {
+    background-color: #7fd3d3;
+    border-color: #7fd3d3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* NAV 2 STARTS HERE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Nav2Items {
+    width: 100%;
+    height: 10vh;
+    box-shadow: 2px 4px 20px -4px #0000001a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Nav2ItemsAlign {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Nav2ItemsAlignList {
+    display: flex;
+    list-style: none;
+    font-size: 1vw;
+    gap: 1.5vw;
+    height: 100%;
+    align-items: center;
+}
+
+.Nav2ItemsAlignListLi1 {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #00a8a7;
+}
+
+.Nav2ItemsAlignListLi a {
+    text-decoration: none;
+    color: #737373;
+    transition: 0.5s ease all;
+}
+
+.Nav2ItemsAlignListLi1 a {
+    text-decoration: none;
+    color: #737373;
+    transition: 0.5s ease all;
+}
+
+.Nav2ItemsAlignListLi a:hover {
+    color: #282828;
+}
+
+.Nav2ItemsAlignListLi1 a:hover {
+    color: #282828;
+}
+
+.Nav2ItemsAlignListLi a i {
+    font-size: 1.2vw;
+    font-weight: bolder;
+}
+
+.Nav2ItemsAlignListLi1 a i {
+    font-size: 1.2vw;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+/* HERO SECTION STARTS HERE */
+
+
+
+
+
+
+
+
+
+
+
+
+.heroSection {
+    width: 100%;
+    height: 40vh;
+    box-shadow: 2px 4px 20px -4px #0000001a;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;    
+}
+
+.heroHeading {
+    width: 80%;
+    height: 4vh;
+    display: flex;  
+    align-items: end;
+    font-size: 0.9vw;
+    color: #00a8a7;
+}
+
+
+.breadCrumbs {
+    width: 100%;
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.breadCrumbsAlign {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbsList {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.breadcrumbsListli1 {
+    width: 5%;
+    font-size: 0.8vw;
+}
+
+.breadcrumbsListli2 {
+    width: 15%;
+    font-size: 0.8vw;
+}
+
+.breadcrumbsListli1 a {
+    text-decoration: none;
+    color: #737373;
+    transition: 0.5s ease all;
+}
+
+.breadcrumbsListli1 a:hover {
+    color: #282828;
+}
+
+.breadcrumbsListli2 a {
+    text-decoration: none;
+    color: #737373;
+    transition: 0.5s ease all;
+}
+
+.breadcrumbsListli2 a:hover {
+    color: #282828;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+.heroCont {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+}
+
+.heroContAlign {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 20px 0px #e1e1e1;
+}
+
+.heroContAlign h1 {
+    color: #00a8a7;
+    font-size: 0.9vw;
+    font-weight: 900;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    word-spacing: 1.2px;
+}
+
+.heroContAlign p {
+    color: #282828;
+    font-size: 0.95vw;
+    word-spacing: 1.2px;
+    width: 98%;
+    line-height: 28px;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+footer {
+    width: 100%;
+    height: 45vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.footerListsCont {
+    width: 75%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.FooterLists {
+    width: 15%;
+    height: 100%;
+    list-style: none;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.FooterListItemsHeading {
+    color: #737373;
+    font-size: 1.4vw;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.FooterListItems {
+    height: 15%;
+    display: flex;
+    align-items: end;
+    font-size: 0.8vw;
+    font-weight: lighter;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.FooterListItems1 {
+    height: 15%;
+    display: flex;
+    align-items: end;
+    font-size: 0.8vw;
+    font-weight: lighter;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.FooterListItems1 a {
+    color: #ffffff;
+    transition: 0.3s ease all;
+    text-decoration: none;
+    color: #dabfbf;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.FooterListItems1 a:hover {
+    color: #737373;
+    text-decoration: underline;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.FooterListItems a {
+    color: #ffffff;
+    transition: 0.5s ease all;
+    text-decoration: none;
+    color: #dabfbf;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.FooterListItems a:hover {
+    color: #737373;
+    text-decoration: underline;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.FooterTextsCont {
+    width: 75%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+.FooterTexts {
+    width: 100%;
+    height: 30%;
+    color: #737373;
+    font-size: 0.8vw;
+}
+
+.FooterTexts span {
+    color: black;
+}
